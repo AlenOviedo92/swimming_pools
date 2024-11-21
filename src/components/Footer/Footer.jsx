@@ -26,15 +26,18 @@ function Footer() {
                             </Typography>
 
                             <Box sx={{ display: 'flex', justifyContent: 'center', mt: 2 }}>
-                                <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+                                <IconButton href="#header" sx={{ mr: 0, mt: '-5px', color: 'white' }}>
+                                    <AdbIcon  />
+                                </IconButton>
+
                                 <Typography
                                     variant="h6"
                                     noWrap
                                     component="a"
-                                    href="#app-bar-with-responsive-menu"
+                                    href="#header"
                                     sx={{
                                         mr: 2,
-                                        display: { xs: 'none', md: 'flex' },
+                                        display: 'flex',
                                         fontFamily: 'monospace',
                                         fontWeight: 700,
                                         letterSpacing: '.3rem',

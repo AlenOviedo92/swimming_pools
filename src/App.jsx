@@ -8,7 +8,7 @@ import Footer from './components/Footer/Footer'
 
 function App() {
   return (
-    <div style={{ marginTop: '69px' }}>
+    <div style={{ marginTop: '55px' }}>
       <ResponsiveAppBar />
       <Header />
       <Gallery />

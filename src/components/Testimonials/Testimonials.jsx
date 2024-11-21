@@ -12,13 +12,18 @@ const testimonials = [
         name: 'Juan Rodriguez', 
         image: '/images/customer2.jpg', 
         comment: 'Profesionales y rápidos. Muy recomendados.' 
-    } ,
+    },
     { 
         name: 'Camilo Pérez', 
         image: '/images/customer3.jpg', 
         comment: '¡Una experiencia maravillosa! Excelente diseño, elegante y moderno.' 
-    } ,
-];
+    },
+    {
+        name: 'Isabela Díaz', 
+        image: '/images/customer4.jpeg', 
+        comment: 'Me encanta la mezcla de naturaleza, elegancia y distinción en sus diseños.'
+    },
+]
 
 function Testimonials() {
     return (

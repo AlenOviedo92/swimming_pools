@@ -73,7 +73,7 @@ function Contact() {
             </Typography>
 
             <Grid container justifyContent="center" sx={{ padding: 4 }}>
-                <Grid item xs={12} sm={8} md={6}>
+                <Grid item xs={12} sm={8} md={4}>
                     <Paper
                         elevation={6}
                         sx={{
@@ -82,7 +82,7 @@ function Contact() {
                             backgroundColor: '#fff',
                             boxShadow: 10,
                             '&:hover': {
-                                boxShadow: 12,
+                                boxShadow: 16,
                             },
                         }}
                     >

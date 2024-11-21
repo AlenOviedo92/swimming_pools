@@ -19,7 +19,7 @@ function Header() {
             flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'center',
-            minHeight: '80vh', 
+            minHeight: '100vh',
           }}
         >
           <Typography 
